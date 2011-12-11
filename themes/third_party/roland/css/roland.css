@@ -1,0 +1,9 @@
+.roland_table td.roland_table_drag_handle {vertical-align: middle;}
+.roland_table td.roland_table_drag_handle img {margin-top: 3px;}
+.roland_table .ui-sortable-helper {display: block; -webkit-box-shadow:  2px 2px 3px rgba(0,0,0,0.4); -moz-box-shadow:  0 0 5px rgba(0,0,0,0.4); box-shadow:  0 0 5px rgba(0,0,0,0.4); border-top: 1px solid #fff; opacity: 0.8;}
+.roland_table td.roland_drag_handle:hover {cursor: move;}
+.roland_table a.add_row,
+.roland_table a.remove_row {display: block; width: 16px; height: 16px; text-indent: -3000px; display: inline-block; }
+.roland_table a.add_row {background: url(../gfx/plus.png); margin-right: 5px;}
+.roland_table a.remove_row {background: url(../gfx/minus.png);}
+.roland_table .roland_nav {white-space: nowrap; text-align: center; vertical-align: middle; line-height: 16px;}
