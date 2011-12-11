@@ -105,13 +105,8 @@
   };
 
 
-  /* ------------------------------------------
-   * PRIVATE METHODS
-   * -----------------------------------------*/
-
   // Updates the indexes of any form elements.
   $.fn.roland.updateIndexes = function($container, opts){
-  // function updateIndexes($container, opts) {
     $container.find('.' + opts.rowClass).each(function(rowCount) {
       regex = /^([a-z_]+)\[(?:[0-9]+)\](.*)$/;
 
@@ -134,6 +129,10 @@
       });
     });
   };
+
+  /* ------------------------------------------
+   * PRIVATE METHODS
+   * -----------------------------------------*/
 
   // Updates the navigation buttons.
   function updateNav($container, opts) {
