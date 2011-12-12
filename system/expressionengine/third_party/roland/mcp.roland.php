@@ -75,7 +75,7 @@ class Roland_mcp {
 		$vars['hat_on'] = $this->EE->input->post('hat_on');
 		
 		// misc assets/classes required
-		$vars['drag_handle'] = '<img src="'.$this->_theme_base_url.'/gfx/drag.png" width="19" height="16" alt="">';
+		$vars['drag_handle'] = '&nbsp;';
 		$vars['nav'] = '<a class="remove_row" href="#">-</a> <a class="add_row" href="#">+</a>';
 		$vars['roland_template'] = array(
 				'table_open'		=> '<table class="mainTable roland_table" border="0" cellspacing="0" cellpadding="0">',

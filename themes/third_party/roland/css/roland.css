@@ -1,5 +1,4 @@
-.roland_table td.roland_table_drag_handle {vertical-align: middle;}
-.roland_table td.roland_table_drag_handle img {margin-top: 3px;}
+.roland_table td.roland_drag_handle {background-image: url(../gfx/drag.png); background-repeat: no-repeat; background-position: 50% 50%; padding: 5px 15px;}
 .roland_table .ui-sortable-helper {display: block; -webkit-box-shadow:  2px 2px 3px rgba(0,0,0,0.4); -moz-box-shadow:  0 0 5px rgba(0,0,0,0.4); box-shadow:  0 0 5px rgba(0,0,0,0.4); border-top: 1px solid #fff; opacity: 0.8;}
 .roland_table td.roland_drag_handle:hover {cursor: move;}
 .roland_table a.add_row,
